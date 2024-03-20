@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4b2d6aeaba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container1">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><i class="fas fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fas fa-address-card"></i><a href="about.html">About</a></li>
+                        <li><i class="fas fa-gear"></i><a href="portfolio.html">Skills</a></li>
+                        <li><i class="fas fa-phone"></i><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"> M e n  u</i>
+                </nav>
+                
+            </div>
+        </div>
+        
+        <div class="header-text">
+            <h1><span>P</span>ortfolio</h1>
+			 <div class="image" style="text-align: left;"><img src="images/certificate.gif" width="175px"></div>
+        </div>
+        
+        <!-------------services--------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="services-list">
+                    <div style="background-color: #837A02;">
+                        <i class="fa-solid fa-brush"></i>
+                        <h2>Web Development</h2>
+                        <p>I create visually appealing and user-friendly websites to enhance your online presence. My focus is on crafting engaging designs with intuitive layouts for a seamless user experience</p>
+                        <a href="#">Learn more...</a>
+                    </div>
+                    <div style="background-color: #837A02;">
+                        <i class="fa-solid fa-toolbox"></i>
+                        <h2>Graphic Design</h2>
+                        <p>Transform your brand with visually striking designs. I specialize in creating impactful graphics that communicate your message effectively, ensuring a memorable and professional identity.
+                        </p>
+                        <a href="#">Learn more...</a>
+                    </div>
+                    <div style="background-color: #837A02;">
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Computer Applications</h2>
+                        <p> Learn about many computer applications and their usage of today world associate with IT field. 
+                        </p>
+                        <a href="#">Learn more...</a>
+                    </div>
+					<div style="background-color: #837A02;">
+                        <i class="fa-brands fa-app-store"></i> 
+                        <h2>Mobile Application Development</h2>
+                        <p> Elevate your digital experience with expertly crafted applications. From user-friendly interfaces to seamless functionality, I design applications that enhance user engagement and deliver a seamless digital experience.
+                        </p>
+                        <a href="#">Learn more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------Work-------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Certifications & Projects</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/Certifications.gif" height="100%">
+                        <div class="layer">
+                            <h1><i>CERTIFICATIONS</i></h1>
+                            <p>
+                               <h1>Followed there are many Information Technology certificate courses.....</h1> 
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Projects.gif" height="100%">
+                        <div class="layer">
+                            <h1><i>PROJECTS</i></h1>
+                            
+                                <h1>Built there are many projects combine with Information Technology field.....</h1> 
+                            
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Rukshana Bandara @ 2024. All Rights Reserved</p>
+        </div>
+        <script>
+            
+            /*------small side menu-----*/
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>

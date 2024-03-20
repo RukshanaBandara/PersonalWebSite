@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4b2d6aeaba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+	
+        <div id="header">
+            <div class="container1">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><i class="fas fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fas fa-address-card"></i><a href="about.html">About</a></li>
+                        <li><i class="fas fa-gear"></i><a href="portfolio.html">Skills</a></li>
+                        <li><i class="fas fa-phone"></i><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                     <i class="fa-solid fa-bars" onclick="openmenu()"> M e n  u</i>
+                </nav>
+                
+            </div>
+        </div>
+        
+        <div class="header-text">
+            <h1><span>P</span>ortfolio</h1>
+        </div>
+        
+        <!----------------contact----------------->
+		
+        <div id="contact">
+            <div class="container" style="display: flex;">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> rukshanabandara2001@gmail.com<br><center>38-bit-0043@kdu.ac.lk</center></p>
+                        <p><i class="fa-solid fa-phone"></i> +9470 2280 238</p>
+						<p><i class="fa-brands fa-linkedin"></i>www.linkedin.com/in/rukshanabandara-3438742b4</p>
+						<p><i class="fa-brands fa-github"></i>https://github.com/RukshanaBandara</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="CVNew.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+					<div class="Con">
+					<center><img src="images/my.gif" width="200px" ></center>
+					</div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Rukshana Bandara @ 2024. All Rights Reserved</p>
+            </div>
+        </div>
+        <script>
+            /*var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            ------small side menu-----*/
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>

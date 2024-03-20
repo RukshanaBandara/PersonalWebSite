@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4b2d6aeaba.js" crossorigin="anonymous"></script>
+    </head>
+        <div id="header">
+            <div class="container1">
+                <nav>
+    <body>
+                    <ul id="sidemenu">
+                        <li><i class="fas fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fas fa-address-card"></i><a href="about.html">About</a></li>
+                        <li><i class="fas fa-gear"></i><a href="portfolio.html">Skills</a></li>
+                        <li><i class="fas fa-phone"></i><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                                       <i class="fa-solid fa-bars" onclick="openmenu()"> M e n  u</i>
+                </nav>
+                
+            </div>
+        </div>
+        
+        <div class="header-text">
+            <h1><span>P</span>ortfolio</h1>
+        </div>
+        
+        <div class="home">
+        
+            <div class="image"><img src="images/my1.gif" width="450px"></div>
+            <div class="content">
+                <center><h1>Hi, I'm<span>RUKSHANA BANDARA.....</span><br>From General Sir John Kotelawala Defence University</h1>
+				<br><br><br>
+				<div class="image"><img src="images/kdu.png" width="200px" ></div>
+				
+                <div class="details" >
+                    <p style="text-align: center; margin-left: 5px;">"As a dedicated final-year undergraduate from 
+					the Faculty of Computing at General Sir John Kotelawala Defence University, 
+					I am ardently pursuing a Bachelor of Science (Honors) degree in Information Technology.
+					My academic voyage within this esteemed institution has not only fortified my proficiency 
+					in IT but has also fueled my fervor for the dynamic intersection of technology and learning. 
+					The robust curriculum of the BSc (Hons) Information Technology program has provided me with
+					a comprehensive foundation, encompassing various facets of the field, from software 
+					development to network administration.
+					<br><br>
+
+My academic journey is characterized by an unwavering passion for exploring
+ the intricate realms of technology. Armed with a profound understanding 
+ fostered by my degree program, I am poised to embrace the ever-evolving landscape 
+ of new technologies. The Faculty of Computing has been instrumental in shaping my 
+ intellectual pursuits, fostering an environment where innovation and critical 
+ thinking thrive. Eager to contribute my skills and knowledge to the transformative 
+ landscape of Information Technology, I am driven by a commitment to continuous learning 
+ and a genuine enthusiasm for the limitless possibilities that emerging technologies bring
+ to the forefront of the IT domain."</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>&copy; Rukshana Bandara @ 2024. All Rights Reserved</i></p>
+        </div>
+        <script>
+            
+            /*------small side menu-----*/
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
